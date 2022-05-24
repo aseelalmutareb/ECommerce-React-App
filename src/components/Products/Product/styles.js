@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles(() => ({
     root: {
         maxWidth: '100',
-        height: '100%' // a suggestion to fix align problems of card
+        height: '100%' 
     },
     media: {
         height: 0,
-        paddingTop: '56.25%', // 16:9
+        paddingTop: '56.20%'
     },
     cardActions: {
         display: 'flex',

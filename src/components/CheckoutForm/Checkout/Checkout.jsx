@@ -82,7 +82,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
       <>
       <Typography variant="h5">Error: {error}</Typography>
       <br />
-      <Button component={Link} to="/" variant="outlined" type="button">Back to Home</Button>
+      <Button component={Link} to="/" variant="outlined">Back to Home</Button>
       </>
   }
   

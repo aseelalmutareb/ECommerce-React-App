@@ -32,6 +32,9 @@ export default makeStyles((theme) => ({
   },
   stepper: {
     padding: theme.spacing(3, 0, 5),
+    "& .MuiStepIcon-active": { color: "#3f51b5" },
+    "& .MuiStepIcon-completed": { color: "#303030" },
+    "& .Mui-disabled .MuiStepIcon-root": { color: "#e0e0e0" }
   },
   buttons: {
     display: 'flex',

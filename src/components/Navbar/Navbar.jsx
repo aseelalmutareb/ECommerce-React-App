@@ -4,15 +4,13 @@ import {
   Toolbar,
   IconButton,
   Badge,
-  MenuItem,
-  Menu,
   Typography,
 } from "@material-ui/core";
-import { LocationCityOutlined, ShoppingCart } from "@material-ui/icons";
+import { ShoppingCart } from "@material-ui/icons";
 import { Link, useLocation } from 'react-router-dom';
 
-import logo from "../../assets/ecommerce_.png";
 import useStyles from "./styles";
+
 
 const Navbar = ({ totalItems }) => {
   const classes = useStyles();
@@ -23,19 +21,13 @@ const Navbar = ({ totalItems }) => {
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-            <img
-              src={logo}
-              alt="ECommerce App"
-              height="25px"
-              className={classes.image}
-            />
             ECommerce App
           </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (
           <div className={classes.button}>
-            <IconButton component={Link} to="/cart" aria-label="Show Cart Items" color="inherit">
-              <Badge badgeContent={totalItems} color="secondary">
+            <IconButton component={Link} to="/cart" aria-label="Show Cart Items" className={classes.icon}>
+              <Badge badgeContent={totalItems} color="primary">
                 <ShoppingCart />
               </Badge>
             </IconButton>  

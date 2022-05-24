@@ -4,6 +4,7 @@ const drawerWidth = 0;
 
 export default makeStyles((theme) => ({
   appBar: {
+    backgroundColor: 'black',
     boxShadow: 'none',
     borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
     [theme.breakpoints.up('sm')]: {
@@ -11,7 +12,11 @@ export default makeStyles((theme) => ({
       marginLeft: drawerWidth,
     },
   },
+  icon: {
+    color: '#e0e0e0'
+  },
   title: {
+    color: '#e0e0e0',
     flexGrow: 1,
     alignItems: 'center',
     display: 'flex',

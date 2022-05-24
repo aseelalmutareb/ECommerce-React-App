@@ -15,14 +15,16 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
-    minWidth: '150px',
+    minWidth: '150px'
   },
   link: {
-    textDecoration: 'none',
+    textDecoration: 'none', 
+    color: "#3f51b5",
+    fontWeight: 'bold'
   },
   cardDetails: {
     display: 'flex',
-    marginTop: '10%',
+    marginTop: '5%',
     width: '100%',
     justifyContent: 'space-between',
   },
