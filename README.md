@@ -1,5 +1,7 @@
 # E-Commerce React App
 
+To view the app:( [https://ecommerce-aseel-almutareb.netlify.app/](https://ecommerce-aseel-almutareb.netlify.app/) )
+
 ## Mission Statement
 Develop a fully functional e-commerce application that displays products and allows online payments.
 
