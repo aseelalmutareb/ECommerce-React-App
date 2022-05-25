@@ -37,7 +37,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
     };
 
     generateToken();
-  }, [cart]);
+  }, [cart]); // eslint-disable-line
 
   const nextStep = () => setActiveStep((prevActiveStep) => ++prevActiveStep);
   const backStep = () => setActiveStep((prevActiveStep) => --prevActiveStep);

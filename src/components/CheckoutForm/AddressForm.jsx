@@ -42,7 +42,7 @@ const AddressForm = ({ checkoutToken, next }) => {
 
   useEffect(() => {
      checkoutToken && fetchShippingCountries(checkoutToken.id);
-  }, []);
+  }, []); // eslint-disable-line
 
   useEffect(() => {
     shippingCountry && fetchSubdivisions(shippingCountry);
@@ -50,7 +50,7 @@ const AddressForm = ({ checkoutToken, next }) => {
 
   useEffect(() => {
     shippingSubdivision && fetchShippingOptions(checkoutToken.id, shippingCountry, shippingSubdivision);
-  }, [shippingSubdivision]);
+  }, [shippingSubdivision]); // eslint-disable-line
 
   return (
     <>
