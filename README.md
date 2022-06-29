@@ -1,6 +1,6 @@
 # E-Commerce React App
 
-To view the app:( [https://ecommerce-aseel-almutareb.netlify.app/](https://ecommerce-aseel-almutareb.netlify.app/) ).    
+To view the app:( [https://ecommerce-aseel.vercel.app/](https://ecommerce-aseel.vercel.app/) ).    
 The following [link](https://stripe.com/docs/testing?numbers-or-method-or-token=card-numbers) can be used for a list of test cards to simulate a successful payment.
 
 ## Mission Statement
